@@ -1,0 +1,701 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.mainim {
+  background-color: #FDF0E9;
+  padding: 0 15% 0 15%;
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+
+.mainim .a {
+  padding-top: 80px;
+  justify-content: center;
+  text-align: center;
+  word-spacing: 60px;
+  font-family: monospace;
+  font-weight: bolder;
+  color: rgba(49, 21, 6, 0.8117647059);
+}
+
+.mainim .a .abir {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  color: #2f1405;
+}
+
+.mainim .aiki {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  color: #2f1405;
+}
+
+.mainim .auc {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  color: #2f1405;
+}
+
+.mainim .adord {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  color: #2f1405;
+}
+
+.mainim .abes {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  color: #2f1405;
+}
+
+.mainim .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  padding-top: 100px;
+}
+
+.mainim .boxes .box {
+  margin-left: 13px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  width: 350px;
+  height: 380px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-image: url("/Bitmap.svg");
+  border-style: none;
+}
+
+.mainim .boxes .box button {
+  margin-left: 60px;
+  border-radius: 15px;
+  width: 90px;
+  height: 30px;
+  margin-top: 250px;
+  border-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.mainim .boxes .box p {
+  color: #FFFFFF;
+  justify-content: center;
+  margin-top: 20px;
+  padding-left: 60px;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: cursive;
+}
+
+.mainim .boxes .box1 {
+  box-sizing: border-box;
+  margin-left: 13px;
+  width: 350px;
+  height: 380px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-image: url("/Bitmap1.svg");
+  margin-bottom: 12px;
+  border-style: none;
+}
+
+.mainim .boxes .box1 button {
+  margin-top: 250px;
+  margin-left: 30px;
+  border-radius: 15px;
+  width: 90px;
+  height: 30px;
+  border-style: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.mainim .boxes .box1 p {
+  color: rgba(74, 71, 71, 0.9254901961);
+  justify-content: center;
+  margin-top: 20px;
+  padding-left: 17px;
+  font-weight: bold;
+  font-size: 27px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.mainim .boxes .box2 {
+  box-sizing: border-box;
+  margin-left: 13px;
+  width: 350px;
+  height: 380px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-image: url("/Bitmap2.svg");
+  margin-bottom: 12px;
+  border-style: none;
+}
+
+.mainim .boxes .box2 button {
+  margin-top: 250px;
+  margin-left: 30px;
+  border-radius: 15px;
+  width: 90px;
+  height: 30px;
+  border-style: none;
+  font-family: fantasy;
+}
+
+.mainim .boxes .box2 p {
+  color: #FFFFFF;
+  justify-content: center;
+  margin-top: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.mainim .boxes .box3 {
+  box-sizing: border-box;
+  width: 350px;
+  height: 380px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-image: url("/Bitmap3.svg");
+  margin-left: 13px;
+  margin-bottom: 12px;
+  border-style: none;
+}
+
+.mainim .boxes .box3 p {
+  color: #FFFFFF;
+  justify-content: center;
+  margin-top: 20px;
+  padding-left: 30px;
+  font-weight: bolder;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainim .boxes .box3 button {
+  margin-top: 270px;
+  margin-left: 30px;
+  border-radius: 15px;
+  width: 90px;
+  height: 30px;
+  border-style: none;
+  font-family: monospace;
+}
+
+.mainim .boxes .box4 {
+  box-sizing: border-box;
+  margin-left: 13px;
+  margin-bottom: 12px;
+  width: 350px;
+  height: 380px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-image: url("/Bitmap4.svg");
+  border-style: none;
+}
+
+.mainim .boxes .box4 button {
+  margin-top: 270px;
+  margin-left: 30px;
+  border-radius: 15px;
+  width: 90px;
+  height: 30px;
+  border-style: none;
+  font-weight: bolder;
+}
+
+.mainim .boxes .box4 p {
+  color: #dfd9d9;
+  justify-content: center;
+  margin-top: 10px;
+  padding-left: 30px;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.mainim .boxes .box5 {
+  box-sizing: border-box;
+  margin-left: 13px;
+  margin-bottom: 12px;
+  width: 350px;
+  height: 380px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-image: url("/Bitmap5.svg");
+  border-style: none;
+}
+
+.mainim .boxes .box5 button {
+  margin-top: 270px;
+  margin-left: 30px;
+  border-radius: 15px;
+  width: 90px;
+  height: 30px;
+  border-style: none;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.mainim .boxes .box5 p {
+  color: #FFFFFF;
+  justify-content: center;
+  margin-top: 10px;
+  padding-left: 30px;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.mainim .boxes .box6 {
+  box-sizing: border-box;
+  margin-left: 13px;
+  margin-bottom: 12px;
+  width: 350px;
+  height: 380px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-image: url("/Bitmap6.svg");
+  border-style: none;
+}
+
+.mainim .boxes .box6 button {
+  margin-top: 270px;
+  margin-left: 30px;
+  border-radius: 15px;
+  width: 90px;
+  height: 30px;
+  border-style: none;
+  font-family: fantasy;
+}
+
+.mainim .boxes .box6 p {
+  color: #FFFFFF;
+  justify-content: center;
+  margin-top: 10px;
+  padding-left: 30px;
+  font-weight: bolder;
+  font-size: 40px;
+  font-family: monospace;
+}
+
+.mainim .boxes .box7 {
+  box-sizing: border-box;
+  margin-left: 13px;
+  margin-bottom: 12px;
+  width: 350px;
+  height: 380px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-image: url("/Bitmap7.svg");
+  border-style: none;
+}
+
+.mainim .boxes .box7 button {
+  margin-top: 270px;
+  margin-left: 30px;
+  border-radius: 15px;
+  width: 90px;
+  height: 30px;
+  border-style: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.mainim .boxes .box7 p {
+  color: #FFFFFF;
+  justify-content: center;
+  margin-top: 10px;
+  padding-left: 30px;
+  font-weight: bolder;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.mainim .boxes .box8 {
+  margin-left: 13px;
+  margin-bottom: 12px;
+  width: 350px;
+  height: 380px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-image: url("/Bitmap8.svg");
+  border-style: none;
+}
+
+.mainim .boxes .box8 button {
+  margin-top: 270px;
+  margin-left: 30px;
+  border-radius: 15px;
+  width: 90px;
+  height: 30px;
+  border-style: none;
+  font-weight: bold;
+}
+
+.mainim .boxes .box8 p {
+  color: #FFFFFF;
+  justify-content: center;
+  margin-top: 10px;
+  padding-left: 30px;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.mainim .btnmain {
+  margin-left: 470px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.mainim .btnmain button {
+  border-radius: 8px;
+  width: 140px;
+  height: 40px;
+  border-style: none;
+  background-color: white;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.mainim .redsection {
+  width: 1100px;
+  height: 580px;
+  border-radius: 6px;
+  background-color: #EF6D58;
+  display: flex;
+  border: 1px solid #EF6D58;
+  border-radius: 10px;
+}
+
+.mainim .bigtext {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  padding: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 70px;
+  letter-spacing: 1px;
+}
+
+.mainim .downtext {
+  color: rgb(229, 223, 223);
+  padding-left: 80px;
+  max-width: 400px;
+  line-height: 28px;
+  padding-bottom: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.mainim .lastbtn {
+  margin-left: 80px;
+  width: 130px;
+  height: 40px;
+  border-radius: 8px;
+  border-style: none;
+  font-weight: bold;
+  margin-top: -150px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.mainim .sonsekil {
+  padding-right: 80px;
+  padding-top: 40px;
+}
+
+.header {
+  background-color: #28293E;
+  color: #F2F2F2;
+  padding-bottom: 100px;
+}
+
+.header .nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header .nav .sekilnav {
+  display: flex;
+  padding-top: 15px;
+}
+
+.header .nav .agency {
+  padding: 11px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.header .nav .kiciknav {
+  padding-top: 35px;
+  word-spacing: 100px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.header .nav .kiciknav a {
+  text-decoration: none;
+  color: #F2F2F2;
+}
+
+.header .nav .butonnav {
+  padding-top: 18px;
+}
+
+.header .nav .butonnav button {
+  border: 1px solid;
+  border-radius: 8px;
+  background-color: #28293E;
+  color: #F2F2F2;
+  padding: 15px;
+  width: 140px;
+  text-align: center;
+  border-color: rgba(79, 79, 107, 0.9411764706);
+}
+
+.header .text {
+  justify-content: center;
+  text-align: center;
+}
+
+.header .text h1 {
+  font-size: 72px;
+  font-family: cursive;
+  margin-top: 70px;
+}
+
+.header .text p {
+  max-width: 500px;
+  margin-top: 40px;
+  font-size: 18px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 500px;
+  line-height: 32px;
+  font-weight: bold;
+  font-family: serif;
+  color: #c1bebe;
+}
+
+.futirdiv {
+  background-color: #FDF0E9;
+  padding: 0 15% 0 15%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.futirdiv .ustfutir {
+  display: flex;
+  justify-content: space-between;
+}
+
+.futirdiv .agencyfutir h4 {
+  padding-top: 75px;
+  padding-left: 103px;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 24px;
+}
+
+.futirdiv .ulbir {
+  padding-top: 65px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  line-height: 28px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+}
+
+.futirdiv li:nth-child(1) {
+  font-size: 19px;
+  line-height: 60px;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgba(231, 110, 91, 0.9215686275);
+  letter-spacing: 3px;
+}
+
+.futirdiv .uliki {
+  padding-top: 65px;
+  line-height: 28px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+}
+
+.futirdiv .ikonundivi {
+  padding-right: 60px;
+  padding-top: 70px;
+  font-size: 40px;
+  color: rgba(231, 110, 91, 0.9215686275);
+}
+
+.futirdiv .altfutir {
+  padding-top: 50px;
+  display: flex;
+  padding-bottom: 50px;
+  justify-content: space-between;
+  color: rgba(57, 20, 0, 0.6392156863);
+}
+
+.futirdiv .birincip {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 60px;
+}
+
+.futirdiv .ikincip {
+  padding-left: 600px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.futirdiv .ucuncup {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

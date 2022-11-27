@@ -1,0 +1,436 @@
+.mainim {
+    background-color: #FDF0E9;
+    padding: 0 15% 0 15%;
+    padding-left: 100px;
+    box-sizing: border-box;
+
+    .a {
+        padding-top: 80px;
+        justify-content: center;
+        text-align: center;
+        word-spacing: 60px;
+        font-family: monospace;
+        font-weight: bolder;
+        color: #311506cf;
+
+    }
+
+    .a .abir {
+        font-size: 20px;
+        color: black;
+        text-decoration: none;
+        color: #2f1405;
+
+    }
+
+    .aiki {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        color: #2f1405;
+
+
+    }
+
+    .auc {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        color: #2f1405;
+
+    }
+
+    .adord {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        color: #2f1405;
+
+    }
+
+    .abes {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        color: #2f1405;
+
+    }
+
+    .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 10px;
+        padding-top: 100px;
+
+        .box {
+            margin-left: 13px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            width: 350px;
+            height: 380px;
+            border: 1px solid black;
+            border-radius: 6px;
+            background-image: url("/Bitmap.svg");
+            border-style: none;
+        }
+
+        .box button {
+            margin-left: 60px;
+            border-radius: 15px;
+            width: 90px;
+            height: 30px;
+            margin-top: 250px;
+            border-style: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .box p {
+            color: #FFFFFF;
+            justify-content: center;
+            margin-top: 20px;
+            padding-left: 60px;
+            font-weight: bold;
+            font-size: 35px;
+            font-family: cursive;
+        }
+
+
+        .box1 {
+            box-sizing: border-box;
+            margin-left: 13px;
+            width: 350px;
+            height: 380px;
+            border: 1px solid black;
+            border-radius: 6px;
+            background-image: url("/Bitmap1.svg");
+            margin-bottom: 12px;
+            border-style: none;
+
+        }
+
+        .box1 button {
+            margin-top: 250px;
+            margin-left: 30px;
+            border-radius: 15px;
+            width: 90px;
+            height: 30px;
+            border-style: none;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .box1 p {
+            color: #4a4747ec;
+            justify-content: center;
+            margin-top: 20px;
+            padding-left: 17px;
+            font-weight: bold;
+            font-size: 27px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .box2 {
+            box-sizing: border-box;
+            margin-left: 13px;
+            width: 350px;
+            height: 380px;
+            border: 1px solid black;
+            border-radius: 6px;
+            background-image: url("/Bitmap2.svg");
+            margin-bottom: 12px;
+            border-style: none;
+
+        }
+
+        .box2 button {
+            margin-top: 250px;
+            margin-left: 30px;
+            border-radius: 15px;
+            width: 90px;
+            height: 30px;
+            border-style: none;
+            font-family: fantasy;
+
+
+        }
+
+        .box2 p {
+            color: #FFFFFF;
+            justify-content: center;
+            margin-top: 20px;
+            padding-left: 20px;
+            font-weight: bold;
+            font-size: 25px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        .box3 {
+            box-sizing: border-box;
+            width: 350px;
+            height: 380px;
+            border: 1px solid black;
+            border-radius: 6px;
+            background-image: url("/Bitmap3.svg");
+            margin-left: 13px;
+            margin-bottom: 12px;
+            border-style: none;
+
+        }
+
+        .box3 p {
+            color: #FFFFFF;
+            justify-content: center;
+            margin-top: 20px;
+            padding-left: 30px;
+            font-weight: bolder;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .box3 button {
+            margin-top: 270px;
+            margin-left: 30px;
+            border-radius: 15px;
+            width: 90px;
+            height: 30px;
+            border-style: none;
+            font-family: monospace;
+
+        }
+
+        .box4 {
+            box-sizing: border-box;
+            margin-left: 13px;
+            margin-bottom: 12px;
+            width: 350px;
+            height: 380px;
+            border: 1px solid black;
+            border-radius: 6px;
+            background-image: url("/Bitmap4.svg");
+            border-style: none;
+        }
+
+        .box4 button {
+            margin-top: 270px;
+            margin-left: 30px;
+            border-radius: 15px;
+            width: 90px;
+            height: 30px;
+            border-style: none;
+            font-weight: bolder;
+        }
+
+        .box4 p {
+            color: #dfd9d9;
+            justify-content: center;
+            margin-top: 10px;
+            padding-left: 30px;
+            font-weight: bolder;
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+
+        .box5 {
+            box-sizing: border-box;
+            margin-left: 13px;
+            margin-bottom: 12px;
+            width: 350px;
+            height: 380px;
+            border: 1px solid black;
+            border-radius: 6px;
+            background-image: url("/Bitmap5.svg");
+            border-style: none;
+        }
+
+        .box5 button {
+            margin-top: 270px;
+            margin-left: 30px;
+            border-radius: 15px;
+            width: 90px;
+            height: 30px;
+            border-style: none;
+            font-weight: bold;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .box5 p {
+            color: #FFFFFF;
+            justify-content: center;
+            margin-top: 10px;
+            padding-left: 30px;
+            font-weight: bolder;
+            font-size: 40px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .box6 {
+            box-sizing: border-box;
+            margin-left: 13px;
+            margin-bottom: 12px;
+            width: 350px;
+            height: 380px;
+            border: 1px solid black;
+            border-radius: 6px;
+            background-image: url("/Bitmap6.svg");
+            border-style: none;
+        }
+
+        .box6 button {
+            margin-top: 270px;
+            margin-left: 30px;
+            border-radius: 15px;
+            width: 90px;
+            height: 30px;
+            border-style: none;
+            font-family: fantasy;
+        }
+
+        .box6 p {
+            color: #FFFFFF;
+            justify-content: center;
+            margin-top: 10px;
+            padding-left: 30px;
+            font-weight: bolder;
+            font-size: 40px;
+            font-family: monospace;
+        }
+
+        .box7 {
+            box-sizing: border-box;
+            margin-left: 13px;
+            margin-bottom: 12px;
+            width: 350px;
+            height: 380px;
+            border: 1px solid black;
+            border-radius: 6px;
+            background-image: url("/Bitmap7.svg");
+            border-style: none;
+        }
+
+        .box7 button {
+            margin-top: 270px;
+            margin-left: 30px;
+            border-radius: 15px;
+            width: 90px;
+            height: 30px;
+            border-style: none;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .box7 p {
+            color: #FFFFFF;
+            justify-content: center;
+            margin-top: 10px;
+            padding-left: 30px;
+            font-weight: bolder;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .box8 {
+            margin-left: 13px;
+            margin-bottom: 12px;
+            width: 350px;
+            height: 380px;
+            border: 1px solid black;
+            border-radius: 6px;
+            background-image: url("/Bitmap8.svg");
+            border-style: none;
+        }
+
+        .box8 button {
+            margin-top: 270px;
+            margin-left: 30px;
+            border-radius: 15px;
+            width: 90px;
+            height: 30px;
+            border-style: none;
+            font-weight: bold;
+        }
+
+        .box8 p {
+            color: #FFFFFF;
+            justify-content: center;
+            margin-top: 10px;
+            padding-left: 30px;
+            font-weight: bolder;
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    }
+
+    .btnmain {
+
+        //  transform: translate(45%, 0%);
+        margin-left: 470px;
+        margin-top: 60px;
+        margin-bottom: 80px;
+
+    }
+
+    .btnmain button {
+
+        border-radius: 8px;
+        width: 140px;
+        height: 40px;
+        border-style: none;
+        background-color: white;
+        font-weight: bolder;
+        font-family: sans-serif;
+
+    }
+
+    .redsection {
+        width: 1100px;
+        height: 580px;
+        border-radius: 6px;
+        background-color: #EF6D58;
+        display: flex;
+        border: 1px solid #EF6D58;
+        border-radius: 10px;
+    }
+
+    .bigtext {
+
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
+        padding: 80px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        line-height: 70px;
+        letter-spacing: 1px;
+    }
+
+    .downtext {
+
+        color: rgb(229, 223, 223);
+        padding-left: 80px;
+        max-width: 400px;
+        line-height: 28px;
+        padding-bottom: 50px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .lastbtn {
+
+        margin-left: 80px;
+        width: 130px;
+        height: 40px;
+        border-radius: 8px;
+        border-style: none;
+        font-weight: bold;
+        margin-top: -150px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .sonsekil {
+
+        padding-right: 80px;
+        padding-top: 40px;
+    }
+}
